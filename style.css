@@ -1,0 +1,56 @@
+body{
+  background:radial-gradient(skyblue , purple);
+  background-position: center;
+}
+h1{
+  text-align: center;
+  padding: 0;
+
+}
+.wrapper{
+    margin-top: 0px;
+}
+.main-div{
+background:linear-gradient(skyblue, purple);
+ width: fit-content;
+ margin: 0 auto;
+width: 305px;
+height: 400px;
+margin-top: 5%;
+}
+.input{
+border: none;
+ height: 80px;
+  width: 100%;
+  background-color: black;
+  color: white;
+  font-size: larger;
+  text-align: right;
+}
+.input:focus{
+    outline:0;
+}
+.inputbtn{
+    width:72px;
+    height:50px;
+    border: 0px;
+    border-radius: 20px;
+    background-color: transparent;
+    box-shadow: 0px;
+    font-weight: bolder;
+    color: white;
+    font-size: larger;
+}
+.inputbtn:focus{
+  outline: 0;
+}
+.inputbtn:hover{
+    transform: scale(1.5);
+}
+.zerobtn{
+    width: 148px;
+}
+.inner-div{
+    margin-top: 10px;
+   text-align: center;
+}

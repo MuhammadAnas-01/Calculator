@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>CALCULATOR</h1>
+    <div class="wrapper">
+    <div class="main-div">
+        <div class="inner-div">
+            <input id="input-below" type="text" class="input">
+        </div>
+        <div class="inner-div">
+            <button id="clear" class="inputbtn" onclick="clearbtn()">C</button>
+            <button class="inputbtn" onclick="inputNumber('(')">(</button>
+            <button class="inputbtn" onclick="inputNumber(')')">)</button>
+            <button class="inputbtn" onclick="inputNumber('/')" onclick="changeinput('/')">/</button>
+        </div>
+        <div class="inner-div">
+            <button class="inputbtn" onclick="inputNumber('7')">7</button>
+            <button class="inputbtn" onclick="inputNumber('8')">8</button>
+            <button class="inputbtn" onclick="inputNumber('9')">9</button>
+            <button class="inputbtn" onclick="inputNumber('*')" onclick="changeinput('*')">*</button>
+        </div >
+        <div class="inner-div">
+            <button class="inputbtn" onclick="inputNumber('4')">4</button>
+            <button class="inputbtn" onclick="inputNumber('5')">5</button>
+            <button class="inputbtn" onclick="inputNumber('6')">6</button>
+            <button class="inputbtn" onclick="inputNumber('-')" onclick="changeinput('-')">-</button>
+        </div>
+        <div class="inner-div">
+            <button class="inputbtn" onclick="inputNumber('1')">1</button>
+            <button class="inputbtn" onclick="inputNumber('2')">2</button>
+            <button class="inputbtn" onclick="inputNumber('3')">3</button>
+            <button class="inputbtn" onclick="inputNumber('+')" onclick="changeinput('+')">+</button>
+        </div>
+        <div class="inner-div">
+            <button class="inputbtn zerobtn" onclick="inputNumber('0')">0</button>
+            <button class="inputbtn" onclick="inputNumber('.')">.</button>
+            <button class="inputbtn" onclick="equate()">=</button>
+        </div>
+    </div>
+</div>
+
+
+
+
+<script src="app.js"></script>
+</body>
+</html>
